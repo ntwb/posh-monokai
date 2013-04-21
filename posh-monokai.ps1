@@ -55,21 +55,21 @@ Set-ItemProperty . ColorTable14 -type DWORD -value 0x0074dbe6
 Write-Host -ForegroundColor White                  "White       " -BackgroundColor Black
 Set-ItemProperty . ColorTable15 -type DWORD -value 0x00f2f8f8
 
-Set-ItemProperty . CursorSize             -type DWORD -value 0x00000064
+Set-ItemProperty . CursorSize             -type DWORD -value 0x00000019 # small
 Set-ItemProperty . FaceName               -type STRING -value "Source Code Pro"
 Set-ItemProperty . FontFamily             -type DWORD -value 0x00000036
-Set-ItemProperty . FontSize               -type DWORD -value 0x00120000
-Set-ItemProperty . FontWeight             -type DWORD -value 0x00000190
+Set-ItemProperty . FontSize               -type DWORD -value 0x00120000 # 18pt
+Set-ItemProperty . FontWeight             -type DWORD -value 0x00000190 # Normal
 Set-ItemProperty . FullScreen             -type DWORD -value 0x00000000
-Set-ItemProperty . HistoryBufferSize      -type DWORD -value 0x00000032
+Set-ItemProperty . HistoryBufferSize      -type DWORD -value 0x00000063
 Set-ItemProperty . HistoryNoDup           -type DWORD -value 0x00000000
 Set-ItemProperty . InsertMode             -type DWORD -value 0x00000001
 Set-ItemProperty . NumberOfHistoryBuffers -type DWORD -value 0x00000004
-Set-ItemProperty . PopupColors            -type DWORD -value 0x000000f6
+Set-ItemProperty . PopupColors            -type DWORD -value 0x000000f8 # f= White | 8 = DarkGray
 Set-ItemProperty . QuickEdit              -type DWORD -value 0x00000001
-Set-ItemProperty . ScreenBufferSize       -type DWORD -value 0x0bb80078
-Set-ItemProperty . ScreenColors           -type DWORD -value 0x00000081
-Set-ItemProperty . WindowSize             -type DWORD -value 0x0023007d
+Set-ItemProperty . ScreenBufferSize       -type DWORD -value 0x03e7007d #ScreenBufferSize 125 w x 999 h
+Set-ItemProperty . ScreenColors           -type DWORD -value 0x0000008f # 8 = DarkGray | f = White
+Set-ItemProperty . WindowSize             -type DWORD -value 0x0028007d #WindowSize 125 w x 40 h
 
 Pop-Location
 
