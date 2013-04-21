@@ -14,19 +14,19 @@ Write-Host -nonewline -ForegroundColor DarkBlue    "DarkBlue    " -BackgroundCol
 # Set-ItemProperty . ColorTable01 -type DWORD -value 0x00969483
 
 Write-Host -nonewline -ForegroundColor DarkGreen   "DarkGreen   " -BackgroundColor Black
-Set-ItemProperty . ColorTable02 -type DWORD -value 0x005e7175
+Set-ItemProperty . ColorTable02 -type DWORD -value 0x002ee2a6
 
 Write-Host -nonewline -ForegroundColor DarkCyan    "DarkCyan    " -BackgroundColor Black
-# Set-ItemProperty . ColorTable03 -type DWORD -value 0x00a1a193
+Set-ItemProperty . ColorTable03 -type DWORD -value 0x00efd966
 
 Write-Host -nonewline -ForegroundColor DarkRed     "DarkRed     " -BackgroundColor Black
-Set-ItemProperty . ColorTable04 -type DWORD -value 0x001f71fd
+Set-ItemProperty . ColorTable04 -type DWORD -value 0x007226f9
 
 Write-Host -nonewline -ForegroundColor DarkMagenta "DarkMagenta " -BackgroundColor Black
-Set-ItemProperty . ColorTable05 -type DWORD -value 0x00ff81ae
+Set-ItemProperty . ColorTable05 -type DWORD -value 0x007226f9
 
 Write-Host -nonewline -ForegroundColor DarkYellow  "DarkYellow  " -BackgroundColor Black
-# Set-ItemProperty . ColorTable06 -type DWORD -value 0x00837b65
+Set-ItemProperty . ColorTable06 -type DWORD -value 0x0074dbe6
 
 Write-Host  -ForegroundColor Gray                  "Gray        " -BackgroundColor Black
 Set-ItemProperty . ColorTable07 -type DWORD -value 0x00c2cfcf
@@ -44,7 +44,7 @@ Write-Host -nonewline -ForegroundColor Cyan        "Cyan        " -BackgroundCol
 Set-ItemProperty . ColorTable11 -type DWORD -value 0x00efd966
 
 Write-Host -nonewline -ForegroundColor Red         "Red         " -BackgroundColor Black
-# Set-ItemProperty . ColorTable12 -type DWORD -value 0x002f32dc
+Set-ItemProperty . ColorTable12 -type DWORD -value 0x007226f9
 
 Write-Host -nonewline -ForegroundColor Magenta     "Magenta     " -BackgroundColor Black
 Set-ItemProperty . ColorTable13 -type DWORD -value 0x007226f9
@@ -56,7 +56,7 @@ Write-Host -ForegroundColor White                  "White       " -BackgroundCol
 Set-ItemProperty . ColorTable15 -type DWORD -value 0x00f2f8f8
 
 Set-ItemProperty . CursorSize             -type DWORD -value 0x00000019 # small
-Set-ItemProperty . FaceName               -type STRING -value "Source Code Pro"
+Set-ItemProperty . FaceName               -type STRING -value "Source Code Pro" #https://github.com/adobe/source-code-pro
 Set-ItemProperty . FontFamily             -type DWORD -value 0x00000036
 Set-ItemProperty . FontSize               -type DWORD -value 0x00120000 # 18pt
 Set-ItemProperty . FontWeight             -type DWORD -value 0x00000190 # Normal
