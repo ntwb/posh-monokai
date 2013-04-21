@@ -4,11 +4,6 @@
 ##############################################################################################
 
 Push-Location
-Set-Location HKLM:\Software
-Set-Location '.\Microsoft\Windows NT\CurrentVersion\Console\TrueTypeFont'
-Set-ItemProperty . 0000 -type STRING -value "Source Code Pro1"
-
-Push-Location
 Set-Location HKCU:\Console
 Set-Location '.\%SystemRoot%_system32_WindowsPowerShell_v1.0_powershell.exe'
 
