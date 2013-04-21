@@ -1,4 +1,4 @@
-# posh-monokai - Windows PowerShell Monokai Console Color Scheme
+# Windows PowerShell Monokai Console Color Scheme
 
 ## Installation
 Clone the git repo - `git clone git://github.com/ntwb/posh-monokai.git` or [download it](https://github.com/ntwb/posh-monokai/zipball/master)
