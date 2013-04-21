@@ -10,9 +10,12 @@
 * Call `posh-monokai.ps1` from your PowerShell Profile Script
 
 ## Screenshots
+![posh-monokai][1]
 
 ### Credits
 Inspired by [Monokai]( http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/)
 
 ### References
 [TechNet: HKCU:\Console](http://technet.microsoft.com/en-us/library/cc978570.aspx)
+
+[1]: https://raw.github.com/ntwb/posh-monokai/master/posh-monokai.png
