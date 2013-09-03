@@ -1,0 +1,3 @@
+[submodule "fonts/source-code-pro"]
+	path = fonts/source-code-pro
+	url = git://github.com/adobe/source-code-pro.git
