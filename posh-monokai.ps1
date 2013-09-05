@@ -5,7 +5,7 @@
 
 Push-Location
 Set-Location HKCU:\Console
-Set-Location '.\%SystemRoot%_system32_WindowsPowerShell_v1.0_powershell.exe'
+Set-Location '.\Windows PowerShell'
 
 Write-Host -nonewline -ForegroundColor Black       "Black       " -BackgroundColor Black
 Set-ItemProperty . ColorTable00 -type DWORD -value 0x003e4849
@@ -62,7 +62,7 @@ Set-ItemProperty . FontSize               -type DWORD -value 0x00120000 # 18pt
 Set-ItemProperty . FontWeight             -type DWORD -value 0x00000190 # Normal
 Set-ItemProperty . FullScreen             -type DWORD -value 0x00000000
 Set-ItemProperty . HistoryBufferSize      -type DWORD -value 0x00000063
-Set-ItemProperty . HistoryNoDup           -type DWORD -value 0x00000000
+Set-ItemProperty . HistoryNoDup           -type DWORD -value 0x00000001
 Set-ItemProperty . InsertMode             -type DWORD -value 0x00000001
 Set-ItemProperty . NumberOfHistoryBuffers -type DWORD -value 0x00000004
 Set-ItemProperty . PopupColors            -type DWORD -value 0x000000f8 # f= White | 8 = DarkGray
