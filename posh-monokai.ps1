@@ -7,11 +7,13 @@ Push-Location
 Set-Location HKCU:\Console
 Set-Location '.\Windows PowerShell'
 
+Write-Host -nonewline -ForegroundColor Cyan        "--> [posh-monokai] "
+
 Write-Host -nonewline -ForegroundColor Black       "Black       " -BackgroundColor Black
 Set-ItemProperty . ColorTable00 -type DWORD -value 0x003e4849
 
 Write-Host -nonewline -ForegroundColor DarkBlue    "DarkBlue    " -BackgroundColor Black
-# Set-ItemProperty . ColorTable01 -type DWORD -value 0x00969483
+Set-ItemProperty . ColorTable01 -type DWORD -value 0x00969483
 
 Write-Host -nonewline -ForegroundColor DarkGreen   "DarkGreen   " -BackgroundColor Black
 Set-ItemProperty . ColorTable02 -type DWORD -value 0x002ee2a6
@@ -28,14 +30,16 @@ Set-ItemProperty . ColorTable05 -type DWORD -value 0x007226f9
 Write-Host -nonewline -ForegroundColor DarkYellow  "DarkYellow  " -BackgroundColor Black
 Set-ItemProperty . ColorTable06 -type DWORD -value 0x0074dbe6
 
-Write-Host  -ForegroundColor Gray                  "Gray        " -BackgroundColor Black
+Write-Host -ForegroundColor Gray                   "Gray        " -BackgroundColor Black
 Set-ItemProperty . ColorTable07 -type DWORD -value 0x00c2cfcf
+
+Write-Host -nonewline -ForegroundColor Cyan        "--> [posh-monokai] "
 
 Write-Host -nonewline -ForegroundColor DarkGray    "DarkGray    " -BackgroundColor Black
 Set-ItemProperty . ColorTable08 -type DWORD -value 0x00222827
 
 Write-Host -nonewline -ForegroundColor Blue        "Blue        " -BackgroundColor Black
-# Set-ItemProperty . ColorTable09 -type DWORD -value 0x00d28b26
+Set-ItemProperty . ColorTable09 -type DWORD -value 0x00d28b26
 
 Write-Host -nonewline -ForegroundColor Green       "Green       " -BackgroundColor Black
 Set-ItemProperty . ColorTable10 -type DWORD -value 0x002ee2a6
