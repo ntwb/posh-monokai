@@ -3,7 +3,7 @@
 ## Installation
 * Clone the git repo - `git clone git://github.com/ntwb/posh-monokai.git` or [download it](https://github.com/ntwb/posh-monokai/zipball/master)
 
-* Download [Adobe Source Code Pro](https://github.com/adobe/source-code-pro) font and install as [per instructions](http://www.adobe.com/products/type/install-instructions.html)
+* Download [Adobe Source Code Pro](https://github.com/adobe-fonts/source-code-pro) font and install as [per instructions](http://www.adobe.com/products/type/install-instructions.html)
 
 * Merge the `HKCU-Console.reg` registry file to register the Monokai colours for PowerShell.
 
