@@ -1,5 +1,13 @@
 # Windows PowerShell Monokai Console Color Scheme
 
+## FYI
+I'm not really maintaining this repo anymore, I'd suggest you check these four repo's:
+
+* https://github.com/lukesampson/concfg <- Configure and backup your console colours
+* https://github.com/lukesampson/pshazz <- Configurable prompts, VCS, Aliases, SSH
+* https://github.com/lukesampson/scoop <- Easily install and remove open source console applications (PHP/NodeJS/Ruby etc)
+* https://github.com/lukesampson/scoop-extras <- Same as Scoop but for GUI and closed source apps
+
 ## Installation
 * Clone the git repo - `git clone git://github.com/ntwb/posh-monokai.git` or [download it](https://github.com/ntwb/posh-monokai/zipball/master)
 
