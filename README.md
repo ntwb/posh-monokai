@@ -23,7 +23,7 @@ I'm not really maintaining this repo anymore, I'd suggest you check these four r
 ![posh-monokai][1]
 
 ### Credits
-Inspired by [Monokai]( http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/)
+Inspired by [Monokai](https://web.archive.org/web/20170115153838/http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/)
 
 ### References
 [TechNet: HKCU:\Console](http://technet.microsoft.com/en-us/library/cc978570.aspx)
